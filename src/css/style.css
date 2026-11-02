@@ -144,7 +144,7 @@
 
 
   /* WhatsApp float button */
-  .fab-wpp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#08120d;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.4);z-index:99;text-decoration:none}
+  .fab-wpp{position:fixed;bottom:calc(76px + env(safe-area-inset-bottom,0px));right:20px;background:#25D366;color:#08120d;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.4);z-index:99;text-decoration:none}
 
   @media(max-width:480px){
     .cta-row{flex-direction:column;align-items:stretch}
